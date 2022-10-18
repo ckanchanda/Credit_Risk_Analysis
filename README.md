@@ -2,7 +2,7 @@
 
 ## Overview 
 The purpose of this analysis was to use various libraries and algorithims to build 
-and evaluate machine learning models to predict credit risks. Algorithims included:
+and evaluate machine learning models to predict credit risks. Models included:
 * RandomOverSampler
 * SMOTE
 * ClusterCentroids
@@ -49,3 +49,6 @@ and evaluate machine learning models to predict credit risks. Algorithims includ
 ![](Resources/EasyEnsembleClassifier.JPG)
 
 ## Summary
+After reviewing all six models, the EasyEnsembleClassifier proved the best model to use 
+when analysizing credit risk. It returned the highest accuracy score of 93% and the 
+highest recall/sensitivy score of 92%. 
